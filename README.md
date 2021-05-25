@@ -18,9 +18,7 @@
 
 * `Use Cloud Console for use this tool in android phone.`
 
-* `Do not use illegel purpose.
-
-* `The author is not responsible for any issues or damage caused by this program.   `
+* `The author is not responsible for any issues or damage caused by this program and don't use illegel purpose.  `
 
 
 
