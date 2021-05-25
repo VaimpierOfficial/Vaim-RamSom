@@ -1,2 +1,11 @@
 # Vaim-RamSom
-VAIM-RAMSOM IS A SIMPLE ANDROID RANSOMWARE FOR PRANK WITH YOUR FRIENDS. MANY TIMES YOU JUST WANT TO PRANK OR PLAY ON YOUR FRIEND. IF YOU FIND YOURSELF IN THAT SITUATION THEN THIS TOOL IS PERFECT FOR YOU!
+<img src="Vaim-RamSom.png"><br>
+
+
+- What is Vaim-RamSom ?
+> This is simple android ransomware virus.
+> Many times you just want to annoy or play a prank on your friends.
+> If you find yourself in that situation then this Tool is the perfect tool for you!
+> this tool made by @vaimpier_ritik
+
+> Do not use illegel purpose. The author is not responsible for any issues or damage caused by this program.
