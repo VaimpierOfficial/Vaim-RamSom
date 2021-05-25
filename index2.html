@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" >
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+<style>
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 1rem;
+  padding: 1rem;
+  font-family: sans-serif;
+  max-width: 28rem;
+  margin: 0 auto;
+  position: relative;
+}
+#controls {
+  display: flex;
+  margin-top: 2rem;
+}
+button {
+  flex-grow: 1;
+  height: 2.5rem;
+  min-width: 2rem;
+  border: none;
+  border-radius: 0.15rem;
+  background: #ed341d;
+  margin-left: 2px;
+  box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+button:hover, button:focus {
+  outline: none;
+  background: #c72d1c;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+button:active {
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+  line-height: 3rem;
+}
+button:disabled {
+  pointer-events: none;
+  background: lightgray;
+}
+button:first-child {
+  margin-left: 0;
+}
+</style>
+  </head>
+  <body>
+    <h1></h1>
+ <center>
+    <div id="controls">
+  	 <button id="redButton">Click Here</button>
+  
+<br>
+<body>
+
+ 
+
+<audio controls autoplay hidden=”hidden”>
+
+  <source src=”https://5.top4top.net/m_14587sbjy0.mp3" type=”audio/mpeg”>
+ 
+<!–This displays an error to users that don”t have it supported–>
+Your browser does not support the audio element.</audio>
+
+
+</body>
+    </div>
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  	<script src="js/_app.js"></script>
+    
+    
+
+
+
+
+<title>VAIMPIER RITIK</title>
+<style type="text/css">body {
+ 
+background: #000000;
+ 
+font-family: Courier New;
+ 
+color: #ff0000;
+ 
+text-align: center;
+ 
+}
+ 
+a {
+ 
+text-decoration:none;
+ 
+color:
+ 
+#ff0000;
+ 
+}
+ 
+</style>
+ 
+<script type="text/javascript">/*<![CDATA[*/
+ 
+TypingText = function(element, interval, cursor, finishedCallback) {
+ 
+if((typeof document.getElementById ==
+ 
+"undefined") || (typeof element.innerHTML == "undefined")) {
+ 
+this.running = true;
+ 
+return;
+ 
+}
+ 
+this.element = element;
+ 
+this.finishedCallback = (finishedCallback
+ 
+? finishedCallback : function() { return; });
+ 
+this.interval = (typeof interval == "undefined" ? 100 : interval);
+ 
+this.origText = this.element.innerHTML;
+ 
+this.unparsedOrigText = this.origText;
+ 
+this.cursor = (cursor ? cursor : "");
+ 
+this.currentText = "";
+ 
+this.currentChar = 0;
+ 
+this.element.typingText = this;
+ 
+if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+ 
+TypingText.all.push(this);
+ 
+this.running = false;
+ 
+this.inTag = false;
+ 
+this.tagBuffer = "";
+ 
+this.inHTMLEntity = false;
+ 
+this.HTMLEntityBuffer = "";
+ 
+}
+ 
+TypingText.all = new Array();
+ 
+TypingText.currentIndex = 0;
+ 
+TypingText.runAll
+ 
+= function() {
+ 
+for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+ 
+}
+ 
+TypingText.prototype.run = function() {
+ 
+if(this.running) return;
+ 
+if(typeof this.origText == "undefined") {
+ 
+setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+ 
+return;
+ 
+}
+ 
+if(this.currentText == "") this.element.innerHTML = "";
+ 
+if(this.currentChar < this.origText.length) {
+ 
+if(this.origText.charAt(this.currentChar) == "<" &&
+ 
+!this.inTag) {
+ 
+this.tagBuffer = "<";
+ 
+this.inTag = true;
+ 
+this.currentChar++;
+ 
+this.run();
+ 
+return;
+ 
+} else if(this.origText.charAt(this.currentChar) == ">" &&
+ 
+this.inTag) {
+ 
+this.tagBuffer += ">";
+ 
+this.inTag = false;
+ 
+this.currentText += this.tagBuffer;
+ 
+this.currentChar++;
+ 
+this.run();
+ 
+return;
+ 
+} else
+ 
+if(this.inTag) {
+ 
+this.tagBuffer += this.origText.charAt(this.currentChar);
+ 
+this.currentChar++;
+ 
+this.run();
+ 
+return;
+ 
+} else
+ 
+if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+ 
+this.HTMLEntityBuffer = "&";
+ 
+this.inHTMLEntity = true;
+ 
+this.currentChar++;
+ 
+this.run();
+ 
+return;
+ 
+} else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+ 
+this.HTMLEntityBuffer += ";";
+ 
+this.inHTMLEntity =
+ 
+false;
+ 
+this.currentText += this.HTMLEntityBuffer;
+ 
+this.currentChar++;
+ 
+this.run();
+ 
+return;
+ 
+} else if(this.inHTMLEntity) {
+ 
+this.HTMLEntityBuffer +=
+ 
+this.origText.charAt(this.currentChar);
+ 
+this.currentChar++;
+ 
+this.run();
+ 
+return;
+ 
+} else {
+ 
+this.currentText += this.origText.charAt(this.currentChar);
+ 
+}
+ 
+this.element.innerHTML = this.currentText;
+ 
+this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ?
+ 
+this.cursor(this.currentText) : this.cursor) : "");
+ 
+this.currentChar++;
+ 
+setTimeout("document.getElementById('" + this.element.id + "').typingText.run()",
+ 
+this.interval);
+ 
+} else {
+ 
+this.currentText = "";
+ 
+this.currentChar = 0;
+ 
+this.running = false;
+ 
+this.finishedCallback();
+ 
+}
+ 
+}
+ 
+ 
+/*]]>*/</script>
+<center><img src="https://i.ibb.co/mSh5BT3/1569834187470.png" alt="1569834187470" width="193" height="197" border="0">
+ 
+<p id="message"><b> {+} From Website Has Been Hack You {+} </b>><br>
+===========================================
+<span style="color: green;">
+<b><br>Hello Dear....</b></font><span style="color: lime;"">
+<br />
+<br> <b><br>I can see you from behind<br>
+You can hear me in your mind<br>
+Run so fast as you can go<br>Time will catch you before you know<br>
+Are you afraid of the dark?
+
+</b>
+</font>
+<source src="https://5.top4top.net/m_14587sbjy0.mp3" type="audio/mpeg"></audio>
+<br>
+<span style="color: Red;">
+<br><b>Don't Touch This Website Again !!</b><br></font>
+<font color=green</h2>sonuv0085@gmail.com</font>
+</center>
+<div style="text-shadow: 0px 0px 5px red;">
+<span style="color: white;">
+<center><font size='4' color='Black'>  </font>
+ <br>
+<font size='4' color='green'>Vaimpier Ritik<font size='4' color='green'>  </font>
+ 
+<br>
+ 
+<marquee width="45%" behavior="alternate" scrollamount="5" style="width: 45%;">
+ 
+<font size="4" color="lime">
+ 
+Programs | Youtube | Channel | Subscribe | For | More | Awesone | Tricks | Hacks |  | Scripts | Thanks for visiting ~ |
+
+<script type="text/javascript">/*<![CDATA[*/
+ 
+new TypingText(document.getElementById("message"), 90, function(i){ var ar = new Array("_", " ", "_", " "); return " " +
+ 
+ar[i.length % ar.length]; });
+ 
+ 
+//Type out examples:
+ 
+TypingText.runAll();
+ 
+/*]]>*/</script>
+<iframe width="0" height="0" src="https://l.top4top.net/m_1206zylby1.mp3" frameborder="0" allowfullscreen></iframe>
+  
+  
+  
+  
+  
+  
+  
+      
+    
+    
+    
+    
+    </center>
+    
+    
+  </body>
+</html>
