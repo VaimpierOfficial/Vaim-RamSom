@@ -21,6 +21,29 @@
 * `The author is not responsible for any issues or damage caused by this program and don't use illegel purpose.  `
 
 
+- Installation & Step's
+ 
+> `apt update && apt upgrade`
+ 
+> `git clone https://github.com/VaimpierOfficial/Vaim-RamSom`
+ 
+> `cd Vaim-RamSom`  
+ 
+> `bash setup.sh`
+
+<br>
+
+- Updating & Step's
+ 
+> `bash update.sh`
+
+<br>
+
+- Opening & Step's
+ 
+> `bash start.sh`
+
+<br>
 
 ### Dependencies
 
