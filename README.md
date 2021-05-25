@@ -31,10 +31,10 @@
 <img src="src/main.png"></img>
 
 ### Link overview
-<img src="src/link.png"></img>
+<img src="src/link.png"></img><img src="src/link2.jpg"></img>
 
 ### Output 
-<img src="https://raw-dot-githubusercontent-dotcom.gateway.web.tr/termuxhackers-id/SARA/main/src/outputlog.jpg"></img>
+<img src="src/app.png"></img>
 
 ### Support Me On
 Facebook [@Vaimpier_Ritk](https://www.facebook.com/vaimpier.ritik.143)<br>
