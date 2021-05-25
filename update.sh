@@ -14,7 +14,7 @@ echo ""
 cd
 sudo rm -rf Vaim-RamSom
 sudo git clone https://github.com/VaimpierOfficial/Vaim-RamSom
-cd Vaim-RamSom.sh
+cd Vaim-RamSom
 sudo chmod +x *
 clear
 echo ""
