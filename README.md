@@ -1,7 +1,7 @@
 # Vaim-RamSom
 <img src="https://img.shields.io/badge/Vaim--RamSom-Android%20Ransomware-brightgreen"><br>
 <img title="Vaim-RamSom" src="https://img.shields.io/badge/version-1.0-red"><br>
-<img src="Vaim-RamSom.png"><br>
+<img src="src/Vaim-RamSom.png"><br>
 
 
 - What is Vaim-RamSom ?
