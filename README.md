@@ -20,8 +20,9 @@
 
 * `The author is not responsible for any issues or damage caused by this program and don't use illegel purpose.  `
 
+<br>
 
-- Installation & Step's
+### Installation & Step's
  
 > `apt update && apt upgrade`
  
@@ -33,13 +34,13 @@
 
 <br>
 
-- Updating & Step's
+### Updating & Step's
  
 > `bash update.sh`
 
 <br>
 
-- Opening & Step's
+### Opening & Step's
  
 > `bash start.sh`
 
