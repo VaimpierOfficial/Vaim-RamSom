@@ -29,7 +29,6 @@
 
 ### Tools overview
 <img src="src/main.png"></img>
-Need root access for ```Termux Android```
 
 ### Link overview
 <img src="src/link.png"></img>
