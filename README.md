@@ -1,5 +1,6 @@
 # Vaim-RamSom
 <img src="https://img.shields.io/badge/Vaim--RamSom-Android%20Ransomware-brightgreen"><br>
+<img title="Vaim-RamSom" src="https://img.shields.io/badge/VERSION%20-1.0-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"><br>
 <img src="Vaim-RamSom.png"><br>
 
 
