@@ -10,12 +10,12 @@
 > If you find yourself in that situation then this Tool is the perfect tool for you!
 > this tool made by @vaimpier_ritik
 
-> Do not use illegel purpose. The author is not responsible for any issues or damage caused by this program.
+
 ### Dependencies
 
--Php
--Openssh
--Ngrok
+- Php
+- Openssh
+- Ngrok
 - Java
   - Openjdk 11
 - Aapt
@@ -31,13 +31,13 @@
 <img src="src/main.png"></img>
 Need root access for ```Termux Android```
 
-### Ransomware overview
+### Link overview
 <img src="src/link.png"></img>
 
-### Output logs
+### Output 
 <img src="https://raw-dot-githubusercontent-dotcom.gateway.web.tr/termuxhackers-id/SARA/main/src/outputlog.jpg"></img>
 
 ### Support Me On
-Facebook [@Vaimpier Ritk](https://www.facebook.com/vaimpier.ritik.143)<br>
-Instagram [@Vaimpier Ritik](https://instagram.com/vaimpier_ritik)
-Youtube [@Vaimpier Ritik](https://www.youtube.com/channel/UCDWhaLh7OIKzH4Bk952l7Iw)
+Facebook [@Vaimpier_Ritk](https://www.facebook.com/vaimpier.ritik.143)<br>
+Instagram [@Vaimpier_Ritik](https://instagram.com/vaimpier_ritik)<br>
+Youtube [@Vaimpier_Ritik](https://www.youtube.com/channel/UCDWhaLh7OIKzH4Bk952l7Iw)
