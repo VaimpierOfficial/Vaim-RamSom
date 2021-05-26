@@ -15,6 +15,8 @@ echo ""
 
 printf "Installing dependencies ..."
 sleep 2
+printf "installing package: php"
+sudo apt-get install php -y
 printf "installing package: default-jdk"
 sudo apt-get install default-jdk -y
 printf "installing package: aapt"
