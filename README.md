@@ -49,7 +49,6 @@
 ### Dependencies
 
 - Php
-- Openssh
 - Ngrok
 - Java
   - Openjdk 11
