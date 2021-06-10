@@ -77,4 +77,4 @@ Youtube [@Vaimpier_Ritik](https://www.youtube.com/channel/UCDWhaLh7OIKzH4Bk952l7
 
 
 ### For Video Tutorial
-- <a href="https://www.youtube.com/channel/UCDWhaLh7OIKzH4Bk952l7Iw"> CLICK HERE AND SEE TUTORIAL </a>
+- <a href="https://www.youtube.com/watch?v=Hk1PZ2Jj4yA"> CLICK HERE AND SEE TUTORIAL </a>
